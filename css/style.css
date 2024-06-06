@@ -1,0 +1,54 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+}
+
+/* Title styles */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+#generateButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#generateButton:hover {
+    background-color: #45a049;
+}
+
+/* Quest container styles */
+#questContainer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Hide the quest container by default */
+.hidden {
+    display: none;
+}
